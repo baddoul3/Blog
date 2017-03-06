@@ -11,7 +11,7 @@ namespace Blog.Controllers
         // GET: Posts
         public ActionResult Index()
         {
-            return Content("Bonjour");
+            return View();
         }
     }
 }

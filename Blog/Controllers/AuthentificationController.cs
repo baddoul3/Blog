@@ -11,7 +11,7 @@ namespace Blog.Controllers
         // GET: Authentification
         public ActionResult Login()
         {
-            return Content("page d'autentification");
+            return View();
         }
     }
 }
