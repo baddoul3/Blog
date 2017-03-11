@@ -18,7 +18,7 @@ namespace Blog
             
             routes.MapRoute("Login", "login", new { controller = "Authentification", action = "Login" }, namespaces);  
 
-            routes.MapRoute("Home","",new { controller = "Posts", action = "Index" }, namespaces);
+            routes.MapRoute("Index","",new { controller = "Posts", action = "Index" }, namespaces);
         }
     }
 }
